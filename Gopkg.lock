@@ -5,13 +5,19 @@
   branch = "master"
   name = "github.com/joaosoft/go-error"
   packages = ["app"]
-  revision = "1c12dfac60bb5480598d09e10ae0a057fabf65ef"
+  revision = "140491fc9e31cf3f490dab432c8b8ac4ea3d315e"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/joaosoft/go-log"
+  packages = ["app"]
+  revision = "275a0f1880593536bf6a49209114efdef4a4c75c"
 
 [[projects]]
   branch = "master"
   name = "github.com/joaosoft/go-writer"
   packages = ["app"]
-  revision = "fc3d6933fa02e56ddae34584bbee10f02527a7cd"
+  revision = "791f32ceaea26e070eb198a04669b056558a1c2c"
 
 [[projects]]
   name = "github.com/labstack/gommon"
@@ -50,14 +56,20 @@
   revision = "dcecefd839c4193db0d35b88ec65b4c12d360ab0"
 
 [[projects]]
+  name = "gitlab.com/vredens/go-logger"
+  packages = ["."]
+  revision = "bf01ebed1e72b4d9ef17f56eb2ad1575f3dd2fd4"
+  version = "v1.3.0"
+
+[[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "4adea008a5e5f820b6028611ae0b6b3fbcec534b"
+  revision = "78d5f264b493f125018180c204871ecf58a2dce1"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "bca3ea564344dd92d1a1019065bfde1444864f367723be803ce1d02d05b65b4e"
+  inputs-digest = "184496b487424dc553e7b560120462ff385a8667076740b14a71aa66e274ba87"
   solver-name = "gps-cdcl"
   solver-version = 1
