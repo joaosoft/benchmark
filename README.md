@@ -4,9 +4,37 @@
 A benchmark to compare my personal project with others.
 
 ## Benchmark
-* all the maps do not guarantee order of the items! 
+At the moment i have the following benchmarks
+>Logger
+* https://github.com/joaosoft/go-log
+* https://gitlab.com/vredens/go-logger
+
+```   
+/* with joaosoft logger */
+   
+   // logging to json with one argument
+   50000	     29432 ns/op
+   
+   // logging to json without arguments
+   50000	     25919 ns/op
+
+
+/* with vredens logger */
+
+   // logging to json with one argument
+   50000	     25670 ns/op
+   
+   // logging to json without arguments
+   50000	     42466 ns/op
+```
+
+## Running
 ```
 make bench
+
+// or simply
+go test -bench .
+
 ```
 
 ## Follow me at
