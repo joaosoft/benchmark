@@ -1,4 +1,4 @@
-package gobenchmark
+package benchmark
 
 import (
 	"testing"
