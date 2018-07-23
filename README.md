@@ -5,27 +5,46 @@ A benchmark to compare my personal project with others.
 
 ## Benchmark
 At the moment i have the following benchmarks
->Logger
+> Logger
 * https://github.com/joaosoft/logger by joaosoft
 * https://gitlab.com/vredens/go-logger by vredens
 
 ```   
-/* with joaosoft logger */
-   
-   // logging to json with one argument
-   50000	     29432 ns/op
-   
-   // logging to json without arguments
-   50000	     25919 ns/op
+/* with joaosoft */
+goos: darwin
+goarch: amd64
+pkg: benchmark/logger/joaosoft
+BenchmarkJoaosoftLoggerWithFormatedMessage-4
 
 
-/* with vredens logger */
+/* with vredens */
+goos: darwin
+goarch: amd64
+pkg: benchmark/logger/vredens
+BenchmarkVredensLoggerWithFormatedMessage-4
+```
 
-   // logging to json with one argument
-   50000	     25670 ns/op
-   
-   // logging to json without arguments
-   50000	     42466 ns/op
+> Elastic
+* https://github.com/joaosoft/elastic by joaosoft
+* https://gitlab.com/gocraft by gocraft
+
+```   
+/* with joaosoft */
+goos: darwin
+goarch: amd64
+pkg: benchmark/elastic/joaosoft
+BenchmarkJoaosoftElastic-4   	       1	2728905941 ns/op
+PASS
+ok  	benchmark/elastic/joaosoft	2.756s
+
+
+/* with gocraft */
+goos: darwin
+goarch: amd64
+pkg: benchmark/elastic/gocraft
+BenchmarkGocraftElastic-4   	       1	2989449460 ns/op
+PASS
+ok  	benchmark/elastic/gocraft	3.014s
 ```
 
 ## Running
