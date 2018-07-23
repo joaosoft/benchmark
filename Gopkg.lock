@@ -46,7 +46,7 @@
   branch = "master"
   name = "github.com/joaosoft/elastic"
   packages = ["."]
-  revision = "b391ee6c8c0c1a7eb9f2999bef58d797d947519e"
+  revision = "83bdff541be22eced378691f78624cde1e150e93"
 
 [[projects]]
   branch = "master"
@@ -259,6 +259,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1f39e8176b72004dd6175e22f2538ef6c01db8d59f4bbd071783e6927ae1988f"
+  inputs-digest = "75c4c84b2c4373f776ac0a301ddbfd8645858cd1c5c75f326b623e42744937c1"
   solver-name = "gps-cdcl"
   solver-version = 1

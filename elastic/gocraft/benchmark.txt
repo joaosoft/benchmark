@@ -5,7 +5,7 @@ created a new person with id 1
 
 created a new person with id 2
 
-created a new person with id AWTGl7Hq3dNPie8-2n6y
+created a new person with id AWTGnCro3dNPie8-2n6z
 
 updated person with id 1
 
@@ -23,6 +23,6 @@ deleted persons index
 goos: darwin
 goarch: amd64
 pkg: benchmark/elastic/gocraft
-BenchmarkGocraftElastic-4   	       1	3276952099 ns/op
+BenchmarkGocraftElastic-4   	       1	2989449460 ns/op
 PASS
-ok  	benchmark/elastic/gocraft	3.308s
+ok  	benchmark/elastic/gocraft	3.014s
