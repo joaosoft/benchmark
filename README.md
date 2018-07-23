@@ -33,9 +33,9 @@ BenchmarkVredensLoggerWithFormatedMessage-4
 goos: darwin
 goarch: amd64
 pkg: benchmark/elastic/joaosoft
-BenchmarkJoaosoftElastic-4   	       1	2728905941 ns/op
+BenchmarkJoaosoftElastic-4   	       1	2822202295 ns/op
 PASS
-ok  	benchmark/elastic/joaosoft	2.756s
+ok  	benchmark/elastic/joaosoft	2.839s
 
 
 /* with gocraft */
