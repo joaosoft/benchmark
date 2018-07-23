@@ -1,0 +1,28 @@
+
+created mapping for persons index
+
+created a new person with id 1
+
+created a new person with id 2
+
+created a new person with id AWTGl7Hq3dNPie8-2n6y
+
+updated person with id 1
+
+updated person with id 2
+
+search person by name:luis [{Name:luis Age:22}]
+
+deleted person with id 1
+
+exists index? true
+
+exists index? false
+
+deleted persons index
+goos: darwin
+goarch: amd64
+pkg: benchmark/elastic/gocraft
+BenchmarkGocraftElastic-4   	       1	3276952099 ns/op
+PASS
+ok  	benchmark/elastic/gocraft	3.308s
