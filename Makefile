@@ -1,2 +1,3 @@
 bench:
-	go test -bench . > benchark.txt
+
+	go test -bench=. > benchmark.txt
