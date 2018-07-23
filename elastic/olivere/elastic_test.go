@@ -1,4 +1,4 @@
-package elastic_gocraft
+package elastic_olivere
 
 import (
 	"context"
@@ -25,13 +25,14 @@ func BenchmarkGocraftElastic(b *testing.B) {
 	createIndexWithMapping()
 
 	// document create
-	createDocumentWithId("1")
-	createDocumentWithId("2")
+	for i := 1; i <= 10000; i++ {
+		createDocumentWithId(strconv.Itoa(i))
+	}
 	generatedId := createDocumentWithoutId()
 
 	// document update
-	updateDocumentWithId("1")
-	updateDocumentWithId("2")
+	updateDocumentWithId("90009")
+	updateDocumentWithId("90008")
 
 	// document search
 	// wait elastic to index the last update...
@@ -47,6 +48,16 @@ func BenchmarkGocraftElastic(b *testing.B) {
 
 	}
 	wg.Wait()
+
+	var wg2 sync.WaitGroup
+	for i := 0; i < 100; i++ {
+		wg2.Add(1)
+		go func() {
+			searchDocument("joao")
+			wg2.Done()
+		}()
+	}
+	wg2.Wait()
 
 	// document delete
 	deleteDocumentWithId(generatedId)
@@ -126,7 +137,7 @@ func updateDocumentWithId(id string) {
 	age, _ := strconv.Atoi(id)
 	_, err := client.Update().Index("persons").Type("person").Id(id).Doc(structs.Person{
 		Name: "luis",
-		Age:  age + 20,
+		Age:  age,
 	}).Do(context.Background())
 
 	if err != nil {
@@ -144,6 +155,7 @@ func searchDocument(name string) {
 		Index("persons").
 		Type("person").
 		Query(elastic.NewBoolQuery().Must(elastic.NewTermQuery("name", name))).
+		Size(10000).
 		Do(context.Background())
 
 	if err == nil {

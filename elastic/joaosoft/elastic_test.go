@@ -25,28 +25,40 @@ func BenchmarkJoaosoftElastic(b *testing.B) {
 	createIndexWithMapping()
 
 	// document create
-	createDocumentWithId("1")
-	createDocumentWithId("2")
+	for i := 1; i <= 10000; i++ {
+		createDocumentWithId(strconv.Itoa(i))
+	}
 	generatedId := createDocumentWithoutId()
 
 	// document update
-	updateDocumentWithId("1")
-	updateDocumentWithId("2")
+	updateDocumentWithId("90009")
+	updateDocumentWithId("90008")
 
 	// document search
 	// wait elastic to index the last update...
 	<-time.After(time.Second * 2)
 
-	var wg sync.WaitGroup
+	var wg1 sync.WaitGroup
 	for i := 0; i < 100; i++ {
-		wg.Add(1)
+		wg1.Add(1)
 		go func() {
 			searchDocument("luis")
-			wg.Done()
+			wg1.Done()
 		}()
-
 	}
-	wg.Wait()
+	wg1.Wait()
+
+	var wg2 sync.WaitGroup
+	for i := 0; i < 100; i++ {
+		wg2.Add(1)
+		go func() {
+			searchDocument("joao")
+			wg2.Done()
+		}()
+	}
+	wg2.Wait()
+
+	return
 
 	// document delete
 	deleteDocumentWithId(generatedId)
@@ -126,7 +138,7 @@ func updateDocumentWithId(id string) {
 	age, _ := strconv.Atoi(id)
 	id, err := client.Create().Index("persons").Type("person").Id(id).Body(structs.Person{
 		Name: "luis",
-		Age:  age + 20,
+		Age:  age,
 	}).Execute()
 
 	if err != nil {
@@ -139,7 +151,7 @@ func updateDocumentWithId(id string) {
 func searchDocument(name string) {
 	var data []structs.Person
 
-	d1 := elastic.TemplateData{Data: map[string]interface{}{"name": name}}
+	d1 := elastic.TemplateData{Data: map[string]interface{}{"name": name, "size": "10000"}}
 
 	// document search
 	dir, _ := os.Getwd()

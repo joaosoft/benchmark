@@ -26,25 +26,25 @@ BenchmarkVredensLoggerWithFormatedMessage-4
 
 > Elastic
 * https://github.com/joaosoft/elastic by joaosoft
-* https://gitlab.com/gocraft by gocraft
+* https://github.com/olivere/elastic by olivere
 
 ```   
 /* with joaosoft */
 goos: darwin
 goarch: amd64
 pkg: benchmark/elastic/joaosoft
-BenchmarkJoaosoftElastic-4   	       1	2822202295 ns/op
+BenchmarkJoaosoftElastic-4   	       1	45473183048 ns/op
 PASS
-ok  	benchmark/elastic/joaosoft	2.839s
+ok  	benchmark/elastic/joaosoft	45.497s
 
 
-/* with gocraft */
+/* with olivere */
 goos: darwin
 goarch: amd64
-pkg: benchmark/elastic/gocraft
-BenchmarkGocraftElastic-4   	       1	2989449460 ns/op
+pkg: benchmark/elastic/olivere
+BenchmarkGocraftElastic-4   	       1	49515634802 ns/op
 PASS
-ok  	benchmark/elastic/gocraft	3.014s
+ok  	benchmark/elastic/olivere	49.544s
 ```
 
 ## Running

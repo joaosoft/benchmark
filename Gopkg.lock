@@ -46,7 +46,7 @@
   branch = "master"
   name = "github.com/joaosoft/elastic"
   packages = ["."]
-  revision = "ea11f7ec49e9bd638ab11a5e1f9bf5632e077258"
+  revision = "b3d049482b5dfbe3e42ed5d696a27d637460dbba"
 
 [[projects]]
   branch = "master"
@@ -223,7 +223,7 @@
     "acme",
     "acme/autocert"
   ]
-  revision = "a2144134853fc9a27a7b1e3eb4f19f1a76df13c9"
+  revision = "c126467f60eb25f8f27e5a981f32a87e3965053f"
 
 [[projects]]
   branch = "master"
