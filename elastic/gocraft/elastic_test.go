@@ -12,6 +12,8 @@ import (
 
 	"encoding/json"
 
+	"sync"
+
 	log "github.com/joaosoft/logger"
 	elastic "github.com/olivere/elastic"
 )
@@ -20,34 +22,44 @@ var client, _ = elastic.NewClient(elastic.SetURL("http://localhost:9200"), elast
 
 func BenchmarkGocraftElastic(b *testing.B) {
 	// index create with mapping
-	gocraftElasticCreateIndexWithMapping()
+	createIndexWithMapping()
 
 	// document create
-	gocraftElasticCreateDocumentWithId("1")
-	gocraftElasticCreateDocumentWithId("2")
-	generatedId := gocraftElasticCreateDocumentWithoutId()
+	createDocumentWithId("1")
+	createDocumentWithId("2")
+	generatedId := createDocumentWithoutId()
 
 	// document update
-	gocraftElasticUpdateDocumentWithId("1")
-	gocraftElasticUpdateDocumentWithId("2")
+	updateDocumentWithId("1")
+	updateDocumentWithId("2")
 
 	// document search
 	// wait elastic to index the last update...
 	<-time.After(time.Second * 2)
-	gocraftElasticSearchDocument("luis")
+
+	var wg sync.WaitGroup
+	for i := 0; i < 100; i++ {
+		wg.Add(1)
+		go func() {
+			searchDocument("luis")
+			wg.Done()
+		}()
+
+	}
+	wg.Wait()
 
 	// document delete
-	gocraftElasticDeleteDocumentWithId(generatedId)
+	deleteDocumentWithId(generatedId)
 
 	// index exists
-	gocraftElasticExistsIndex("persons")
-	gocraftElasticExistsIndex("bananas")
+	existsIndex("persons")
+	existsIndex("bananas")
 
 	// index delete
-	gocraftElasticDeleteIndex()
+	deleteIndex()
 }
 
-func gocraftElasticCreateIndexWithMapping() {
+func createIndexWithMapping() {
 	_, err := client.CreateIndex("persons").Body(string([]byte(`
 {
   "mappings": {
@@ -78,7 +90,7 @@ func gocraftElasticCreateIndexWithMapping() {
 	}
 }
 
-func gocraftElasticCreateDocumentWithId(id string) {
+func createDocumentWithId(id string) {
 	// document create with id
 	age, _ := strconv.Atoi(id)
 	_, err := client.Index().Index("persons").Type("person").Id(id).BodyJson(structs.Person{
@@ -93,7 +105,7 @@ func gocraftElasticCreateDocumentWithId(id string) {
 	}
 }
 
-func gocraftElasticCreateDocumentWithoutId() string {
+func createDocumentWithoutId() string {
 	// document create without id
 	response, err := client.Index().Index("persons").Type("person").BodyJson(structs.Person{
 		Name: "joao",
@@ -109,7 +121,7 @@ func gocraftElasticCreateDocumentWithoutId() string {
 	return response.Id
 }
 
-func gocraftElasticUpdateDocumentWithId(id string) {
+func updateDocumentWithId(id string) {
 	// document update with id
 	age, _ := strconv.Atoi(id)
 	_, err := client.Update().Index("persons").Type("person").Id(id).Doc(structs.Person{
@@ -124,7 +136,7 @@ func gocraftElasticUpdateDocumentWithId(id string) {
 	}
 }
 
-func gocraftElasticSearchDocument(name string) {
+func searchDocument(name string) {
 	var data []structs.Person
 
 	// document search
@@ -154,7 +166,7 @@ func gocraftElasticSearchDocument(name string) {
 	}
 }
 
-func gocraftElasticDeleteDocumentWithId(id string) {
+func deleteDocumentWithId(id string) {
 	_, err := client.Delete().Index("persons").Type("person").Id(id).Do(context.Background())
 
 	if err != nil {
@@ -164,7 +176,7 @@ func gocraftElasticDeleteDocumentWithId(id string) {
 	}
 }
 
-func gocraftElasticExistsIndex(index string) {
+func existsIndex(index string) {
 	status, err := client.IndexExists(index).Do(context.Background())
 
 	if err != nil {
@@ -174,7 +186,7 @@ func gocraftElasticExistsIndex(index string) {
 	}
 }
 
-func gocraftElasticDeleteIndex() {
+func deleteIndex() {
 	_, err := client.DeleteIndex("persons").Do(context.Background())
 
 	if err != nil {

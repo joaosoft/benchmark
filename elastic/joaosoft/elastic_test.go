@@ -12,6 +12,8 @@ import (
 
 	structs "benchmark/elastic"
 
+	"sync"
+
 	"github.com/joaosoft/elastic"
 	log "github.com/joaosoft/logger"
 )
@@ -20,34 +22,44 @@ var client = elastic.NewElastic()
 
 func BenchmarkJoaosoftElastic(b *testing.B) {
 	// index create with mapping
-	joaosoftElasticCreateIndexWithMapping()
+	createIndexWithMapping()
 
 	// document create
-	joaosoftElasticCreateDocumentWithId("1")
-	joaosoftElasticCreateDocumentWithId("2")
-	generatedId := joaosoftElasticCreateDocumentWithoutId()
+	createDocumentWithId("1")
+	createDocumentWithId("2")
+	generatedId := createDocumentWithoutId()
 
 	// document update
-	joaosoftElasticUpdateDocumentWithId("1")
-	joaosoftElasticUpdateDocumentWithId("2")
+	updateDocumentWithId("1")
+	updateDocumentWithId("2")
 
 	// document search
 	// wait elastic to index the last update...
 	<-time.After(time.Second * 2)
-	joaosoftElasticSearchDocument("luis")
+
+	var wg sync.WaitGroup
+	for i := 0; i < 100; i++ {
+		wg.Add(1)
+		go func() {
+			searchDocument("luis")
+			wg.Done()
+		}()
+
+	}
+	wg.Wait()
 
 	// document delete
-	joaosoftElasticDeleteDocumentWithId(generatedId)
+	deleteDocumentWithId(generatedId)
 
 	// index exists
-	joaosoftElasticExistsIndex("persons")
-	joaosoftElasticExistsIndex("bananas")
+	existsIndex("persons")
+	existsIndex("bananas")
 
 	// index delete
-	joaosoftElasticDeleteIndex()
+	deleteIndex()
 }
 
-func joaosoftElasticCreateIndexWithMapping() {
+func createIndexWithMapping() {
 	err := client.CreateIndex().Index("persons").Body([]byte(`
 {
   "mappings": {
@@ -78,7 +90,7 @@ func joaosoftElasticCreateIndexWithMapping() {
 	}
 }
 
-func joaosoftElasticCreateDocumentWithId(id string) {
+func createDocumentWithId(id string) {
 	// document create with id
 	age, _ := strconv.Atoi(id)
 	id, err := client.Create().Index("persons").Type("person").Id(id).Body(structs.Person{
@@ -93,7 +105,7 @@ func joaosoftElasticCreateDocumentWithId(id string) {
 	}
 }
 
-func joaosoftElasticCreateDocumentWithoutId() string {
+func createDocumentWithoutId() string {
 	// document create without id
 	id, err := client.Create().Index("persons").Type("person").Body(structs.Person{
 		Name: "joao",
@@ -109,7 +121,7 @@ func joaosoftElasticCreateDocumentWithoutId() string {
 	return id
 }
 
-func joaosoftElasticUpdateDocumentWithId(id string) {
+func updateDocumentWithId(id string) {
 	// document update with id
 	age, _ := strconv.Atoi(id)
 	id, err := client.Create().Index("persons").Type("person").Id(id).Body(structs.Person{
@@ -124,7 +136,7 @@ func joaosoftElasticUpdateDocumentWithId(id string) {
 	}
 }
 
-func joaosoftElasticSearchDocument(name string) {
+func searchDocument(name string) {
 	var data []structs.Person
 
 	d1 := elastic.TemplateData{Data: map[string]interface{}{"name": name}}
@@ -145,7 +157,7 @@ func joaosoftElasticSearchDocument(name string) {
 	}
 }
 
-func joaosoftElasticDeleteDocumentWithId(id string) {
+func deleteDocumentWithId(id string) {
 	err := client.Delete().Index("persons").Type("person").Id(id).Execute()
 
 	if err != nil {
@@ -155,7 +167,7 @@ func joaosoftElasticDeleteDocumentWithId(id string) {
 	}
 }
 
-func joaosoftElasticExistsIndex(index string) {
+func existsIndex(index string) {
 	status, err := client.ExistsIndex().Index(index).Execute()
 
 	if err != nil {
@@ -165,7 +177,7 @@ func joaosoftElasticExistsIndex(index string) {
 	}
 }
 
-func joaosoftElasticDeleteIndex() {
+func deleteIndex() {
 	err := client.DeleteIndex().Index("persons").Execute()
 
 	if err != nil {

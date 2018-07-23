@@ -5,11 +5,209 @@ created a new person with id 1
 
 created a new person with id 2
 
-created a new person with id AWTGnCro3dNPie8-2n6z
+created a new person with id AWTHAyva3dNPie8-2n7O
 
 updated person with id 1
 
 updated person with id 2
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
+
+search person by name:luis [{Name:luis Age:22}]
 
 search person by name:luis [{Name:luis Age:22}]
 
@@ -23,6 +221,6 @@ deleted persons index
 goos: darwin
 goarch: amd64
 pkg: benchmark/elastic/gocraft
-BenchmarkGocraftElastic-4   	       1	2989449460 ns/op
+BenchmarkGocraftElastic-4   	       1	3593116669 ns/op
 PASS
-ok  	benchmark/elastic/gocraft	3.014s
+ok  	benchmark/elastic/gocraft	3.616s
