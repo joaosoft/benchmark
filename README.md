@@ -48,10 +48,8 @@ ok  	benchmark/elastic/gocraft	3.014s
 ```
 
 ## Running
+on each package ...
 ```
-make bench
-
-// or simply
 go test -bench .
 
 ```
