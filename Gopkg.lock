@@ -46,31 +46,31 @@
   branch = "master"
   name = "github.com/joaosoft/elastic"
   packages = ["."]
-  revision = "b3d049482b5dfbe3e42ed5d696a27d637460dbba"
+  revision = "8eb26f105111da191a60baa248eca8e7faf437b0"
 
 [[projects]]
   branch = "master"
   name = "github.com/joaosoft/errors"
   packages = ["."]
-  revision = "1d5bd3de67a4e2116faeab177d4a858d6eac3665"
+  revision = "26de174de522922a2e1b7520dba32fe23c6d0fd6"
 
 [[projects]]
   branch = "master"
   name = "github.com/joaosoft/logger"
   packages = ["."]
-  revision = "61c136ab7bd9fa2b39e6dc324f26ed90e1400ff7"
+  revision = "ac1eb19f94cbeff2fb525880b1d496973f91702b"
 
 [[projects]]
   branch = "master"
   name = "github.com/joaosoft/manager"
   packages = ["."]
-  revision = "da4684f0700b07261bc66c1262243463a3cd06cb"
+  revision = "7e0860cbbbcc6a32005c056309ed3e1c629727fb"
 
 [[projects]]
   branch = "master"
   name = "github.com/joaosoft/writers"
   packages = ["."]
-  revision = "1bf8fc39ed07431e08f868eb80edbb65ceb33514"
+  revision = "3507d7c985a41451c44865cd100f384d3a312188"
 
 [[projects]]
   name = "github.com/labstack/echo"
@@ -111,7 +111,7 @@
     "jlexer",
     "jwriter"
   ]
-  revision = "efc7eb8984d6655c26b5c9d2e65c024e5767c37c"
+  revision = "d5012789d6659eeed305f54c1b1542e7b65829e6"
 
 [[projects]]
   name = "github.com/mattn/go-colorable"
@@ -160,10 +160,10 @@
   version = "v0.8.0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/satori/go.uuid"
   packages = ["."]
-  revision = "36e9d2ebbde5e3f13ab2e25625fd453271d6522e"
+  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
+  version = "v1.2.0"
 
 [[projects]]
   name = "github.com/spf13/afero"
@@ -229,7 +229,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "ac767d655b305d4e9612f5f6e33120b9176c4ad4"
+  revision = "e072cadbbdc8dd3d3ffa82b8b4b9304c261d9311"
 
 [[projects]]
   name = "golang.org/x/text"
