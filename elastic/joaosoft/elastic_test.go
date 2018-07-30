@@ -151,7 +151,7 @@ func updateDocumentWithId(id string) {
 func searchDocument(name string) {
 	var data []structs.Person
 
-	d1 := elastic.TemplateData{Data: map[string]interface{}{"name": name, "size": "10000"}}
+	d1 := elastic.SearchTemplate{Data: map[string]interface{}{"name": name, "size": "10000"}}
 
 	// document search
 	dir, _ := os.Getwd()

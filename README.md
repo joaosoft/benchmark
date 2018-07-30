@@ -14,14 +14,18 @@ At the moment i have the following benchmarks
 goos: darwin
 goarch: amd64
 pkg: benchmark/logger/joaosoft
-BenchmarkJoaosoftLoggerWithFormatedMessage-4
+BenchmarkJoaosoftLoggerWithFormatedMessage-4       30000	     45377 ns/op
+PASS
+ok  	benchmark/logger/joaosoft	3.635s
 
 
 /* with vredens */
 goos: darwin
 goarch: amd64
 pkg: benchmark/logger/vredens
-BenchmarkVredensLoggerWithFormatedMessage-4
+BenchmarkVredensLoggerWithFormatedMessage-4 
+
+< IT BREAKS AFTER SOME CALLS >
 ```
 
 > Elastic
@@ -33,24 +37,24 @@ BenchmarkVredensLoggerWithFormatedMessage-4
 goos: darwin
 goarch: amd64
 pkg: benchmark/elastic/joaosoft
-BenchmarkJoaosoftElastic-4   	       1	45473183048 ns/op
+BenchmarkJoaosoftElastic-4   	       1	52208238417 ns/op
 PASS
-ok  	benchmark/elastic/joaosoft	45.497s
+ok  	benchmark/elastic/joaosoft	52.230s
 
 
 /* with olivere */
 goos: darwin
 goarch: amd64
 pkg: benchmark/elastic/olivere
-BenchmarkGocraftElastic-4   	       1	49515634802 ns/op
+BenchmarkGocraftElastic-4   	       1	62646966758 ns/op
 PASS
-ok  	benchmark/elastic/olivere	49.544s
+ok  	benchmark/elastic/olivere	62.679s
 ```
 
 ## Running
 on each package ...
 ```
-go test -bench .
+go test -bench=. > benchmark.txt
 
 ```
 
