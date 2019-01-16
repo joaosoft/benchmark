@@ -10,8 +10,6 @@ import (
 	"net/http"
 	"os"
 
-	structs "benchmark/elastic"
-
 	"sync"
 
 	"github.com/joaosoft/elastic"
@@ -19,6 +17,11 @@ import (
 )
 
 var client = elastic.NewElastic()
+
+type Person struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+}
 
 func BenchmarkJoaosoftElastic(b *testing.B) {
 	// index create with mapping
@@ -105,7 +108,7 @@ func createIndexWithMapping() {
 func createDocumentWithId(id string) {
 	// document create with id
 	age, _ := strconv.Atoi(id)
-	id, err := client.Create().Index("persons").Type("person").Id(id).Body(structs.Person{
+	id, err := client.Create().Index("persons").Type("person").Id(id).Body(Person{
 		Name: "joao",
 		Age:  age + 20,
 	}).Execute()
@@ -119,7 +122,7 @@ func createDocumentWithId(id string) {
 
 func createDocumentWithoutId() string {
 	// document create without id
-	id, err := client.Create().Index("persons").Type("person").Body(structs.Person{
+	id, err := client.Create().Index("persons").Type("person").Body(Person{
 		Name: "joao",
 		Age:  30,
 	}).Execute()
@@ -136,7 +139,7 @@ func createDocumentWithoutId() string {
 func updateDocumentWithId(id string) {
 	// document update with id
 	age, _ := strconv.Atoi(id)
-	id, err := client.Create().Index("persons").Type("person").Id(id).Body(structs.Person{
+	id, err := client.Create().Index("persons").Type("person").Id(id).Body(Person{
 		Name: "luis",
 		Age:  age,
 	}).Execute()
@@ -149,7 +152,7 @@ func updateDocumentWithId(id string) {
 }
 
 func searchDocument(name string) {
-	var data []structs.Person
+	var data []Person
 
 	d1 := elastic.SearchTemplate{Data: map[string]interface{}{"name": name, "size": "10000"}}
 

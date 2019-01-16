@@ -8,8 +8,6 @@ import (
 	"strconv"
 	"time"
 
-	structs "benchmark/elastic"
-
 	"encoding/json"
 
 	"sync"
@@ -19,6 +17,11 @@ import (
 )
 
 var client, _ = elastic.NewClient(elastic.SetURL("http://localhost:9200"), elastic.SetSniff(false))
+
+type Person struct {
+	Name string `json:"name"`
+	Age  int    `json:"age"`
+}
 
 func BenchmarkGocraftElastic(b *testing.B) {
 	// index create with mapping
@@ -104,7 +107,7 @@ func createIndexWithMapping() {
 func createDocumentWithId(id string) {
 	// document create with id
 	age, _ := strconv.Atoi(id)
-	_, err := client.Index().Index("persons").Type("person").Id(id).BodyJson(structs.Person{
+	_, err := client.Index().Index("persons").Type("person").Id(id).BodyJson(Person{
 		Name: "joao",
 		Age:  age + 20,
 	}).Do(context.Background())
@@ -118,7 +121,7 @@ func createDocumentWithId(id string) {
 
 func createDocumentWithoutId() string {
 	// document create without id
-	response, err := client.Index().Index("persons").Type("person").BodyJson(structs.Person{
+	response, err := client.Index().Index("persons").Type("person").BodyJson(Person{
 		Name: "joao",
 		Age:  30,
 	}).Do(context.Background())
@@ -135,7 +138,7 @@ func createDocumentWithoutId() string {
 func updateDocumentWithId(id string) {
 	// document update with id
 	age, _ := strconv.Atoi(id)
-	_, err := client.Update().Index("persons").Type("person").Id(id).Doc(structs.Person{
+	_, err := client.Update().Index("persons").Type("person").Id(id).Doc(Person{
 		Name: "luis",
 		Age:  age,
 	}).Do(context.Background())
@@ -148,7 +151,7 @@ func updateDocumentWithId(id string) {
 }
 
 func searchDocument(name string) {
-	var data []structs.Person
+	var data []Person
 
 	// document search
 	result, err := client.Search().
@@ -160,7 +163,7 @@ func searchDocument(name string) {
 
 	if err == nil {
 		if len(result.Hits.Hits) > 0 {
-			p := structs.Person{}
+			p := Person{}
 			err = json.Unmarshal(*result.Hits.Hits[0].Source, &p)
 			if err != nil {
 				log.Error(err)
