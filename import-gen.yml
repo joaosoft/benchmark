@@ -1,0 +1,1674 @@
+github.com/BurntSushi/toml:
+  branch: master
+  revision: 3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005
+github.com/VividCortex/gohistogram:
+  branch: master
+  revision: 51564d9861991fb0ad0f531c99ef602d0f9866e6
+github.com/apache/thrift/lib/go/thrift:
+  branch: master
+  revision: f86845e8ed622e7e3b7c87f00f16729ee6cc524d
+github.com/armon/consul-api:
+  branch: master
+  revision: eb2c6b5be1b66bab83016e0b05f01b8d5496ffbd
+github.com/aws/aws-sdk-go-v2/aws:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/awserr:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/defaults:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/ec2metadata:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/ec2rolecreds:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/endpointcreds:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/endpoints:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/external:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/signer/v2:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/signer/v4:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/aws/stscreds:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/awstesting:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/awstesting/integration:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/awstesting/integration/smoke:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/awstesting/mock:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/awstesting/unit:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/awsutil:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/ini:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/s3err:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/internal/sdk:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/ec2query:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/json:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/json/jsonutil:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/jsonrpc:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/query:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/query/queryutil:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/rest:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/restjson:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/restxml:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/xml:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/protocol/xml/xmlutil:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/private/util:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/acm:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/acmpca:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/alexaforbusiness:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/amplify:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/apigateway:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/apigatewayv2:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/applicationautoscaling:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/applicationdiscoveryservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/appmesh:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/appstream:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/appsync:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/athena:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/autoscaling:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/autoscalingplans:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/batch:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/budgets:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/chime:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloud9:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/clouddirectory:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudformation:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudfront:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudhsm:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudhsmv2:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudsearch:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudsearchdomain:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudtrail:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudwatch:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudwatch/cloudwatchiface:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudwatchevents:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cloudwatchlogs:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/codebuild:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/codecommit:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/codedeploy:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/codepipeline:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/codestar:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cognitoidentity:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cognitoidentityprovider:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/cognitosync:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/comprehend:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/comprehendmedical:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/configservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/connect:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/costandusagereportservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/costexplorer:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/databasemigrationservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/datapipeline:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/datasync:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/dax:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/devicefarm:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/directconnect:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/directoryservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/dlm:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/dynamodb:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/dynamodb/dynamodbattribute:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/dynamodb/expression:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/dynamodbstreams:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/ec2:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/ecr:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/ecs:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/efs:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/eks:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/elasticache:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/elasticsearchservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/elastictranscoder:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/elb:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/elbv2:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/emr:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/firehose:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/fms:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/fsx:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/gamelift:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/glacier:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/globalaccelerator:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/glue:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/greengrass:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/guardduty:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/health:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iam:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/inspector:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iot:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iot1clickdevicesservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iot1clickprojects:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iotanalytics:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iotdataplane:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/iotjobsdataplane:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kafka:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kinesis:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kinesisanalytics:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kinesisanalyticsv2:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kinesisvideo:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kinesisvideoarchivedmedia:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kinesisvideomedia:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kms:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/kms/kmsiface:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/lambda:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/lexmodelbuildingservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/lexruntimeservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/licensemanager:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/lightsail:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/machinelearning:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/macie:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/marketplacecommerceanalytics:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/marketplaceentitlementservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/marketplacemetering:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mediaconnect:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mediaconvert:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/medialive:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mediapackage:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mediastore:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mediastoredata:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mediatailor:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/migrationhub:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mobile:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mobileanalytics:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mq:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/mturk:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/neptune:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/opsworks:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/opsworkscm:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/organizations:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/pi:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/pinpoint:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/pinpointemail:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/pinpointsmsvoice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/polly:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/pricing:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/quicksight:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/ram:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/rds:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/rds/rdsutils:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/rdsdataservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/redshift:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/rekognition:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/resourcegroups:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/resourcegroupstaggingapi:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/robomaker:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/route53:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/route53domains:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/route53resolver:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/s3:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/s3/s3crypto:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/s3/s3iface:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/s3/s3manager:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/s3control:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sagemaker:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sagemakerruntime:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/secretsmanager:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/securityhub:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/serverlessapplicationrepository:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/servicecatalog:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/servicediscovery:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/ses:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sfn:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/shield:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/signer:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/simpledb:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sms:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/snowball:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sns:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sqs:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/ssm:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/storagegateway:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/sts:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/support:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/swf:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/transcribeservice:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/transfer:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/translate:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/waf:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/wafregional:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/workdocs:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/workmail:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/workspaces:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go-v2/service/xray:
+  branch: master
+  revision: 381987c3035372234b0fefa7f974a6df6db82cfe
+github.com/aws/aws-sdk-go/aws:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/awserr:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/awsutil:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/client:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/client/metadata:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/corehandlers:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/credentials:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/credentials/processcreds:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/credentials/stscreds:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/crr:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/csm:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/defaults:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/ec2metadata:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/endpoints:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/request:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/session:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/aws/signer/v4:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/awstesting:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/awstesting/integration:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/awstesting/integration/s3integ:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/awstesting/mock:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/awstesting/unit:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/internal/ini:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/internal/s3err:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/internal/sdkio:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/internal/sdkrand:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/internal/sdkuri:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/internal/shareddefaults:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/ec2query:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/eventstream:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamapi:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamtest:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/json/jsonutil:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/jsonrpc:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/query:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/rest:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/restjson:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/restxml:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/private/util:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/cloudfront:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/cloudwatch:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/cloudwatch/cloudwatchiface:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/dynamodb:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/dynamodb/expression:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/ec2:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/elastictranscoder:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/kinesis:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/kms:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/kms/kmsiface:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/route53:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/s3:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/s3/s3crypto:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/s3/s3iface:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/s3/s3manager:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/sqs:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/aws/aws-sdk-go/service/sts:
+  branch: master
+  revision: beaa15b1b227b0e5d2b904af59c1824a1fc9d1e2
+github.com/beorn7/perks/quantile:
+  branch: master
+  revision: 3a771d992973f24aa725d07868b467d1ddfceafb
+github.com/cactus/go-statsd-client/statsd:
+  branch: master
+  revision: 23713bd9ff66e6949ab5c578ed8de1646631eee3
+github.com/codahale/hdrhistogram:
+  branch: master
+  revision: 3a0bb77429bd3a61596f5e8a3172445844342120
+github.com/coreos/etcd/client:
+  branch: master
+  revision: eca5f03cea2ec6d275a4b86ca1aa764b9d6aaa84
+github.com/davecgh/go-spew/spew:
+  branch: master
+  revision: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+github.com/davecgh/go-spew/spew/testdata:
+  branch: master
+  revision: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+github.com/dgrijalva/jwt-go:
+  branch: master
+  revision: 3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8
+github.com/dgrijalva/jwt-go/request:
+  branch: master
+  revision: 3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8
+github.com/dgrijalva/jwt-go/test:
+  branch: master
+  revision: 3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8
+github.com/edsrzf/mmap-go:
+  branch: master
+  revision: 904c4ced31cdffe19e971afa0b3d319ff06d9c72
+github.com/fortytw2/leaktest:
+  branch: master
+  revision: 9a23578d06a26ec1b47bfc8965bf5e7011df8bd6
+github.com/fsnotify/fsnotify:
+  branch: master
+  revision: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
+github.com/go-kit/kit/log:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/log/deprecated_levels:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/log/level:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/log/logrus:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/log/syslog:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/log/term:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/discard:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/dogstatsd:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/expvar:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/generic:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/graphite:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/influx:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/internal/convert:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/internal/lv:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/internal/ratemap:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/prometheus:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/statsd:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/metrics/teststat:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-kit/kit/util/conn:
+  branch: master
+  revision: 1e404df823eb187378b081f22f00e4e38f05a8bd
+github.com/go-logfmt/logfmt:
+  branch: master
+  revision: 07c9b44f60d7ffdfb7d8efe1ad539965737836dc
+github.com/go-sql-driver/mysql:
+  branch: master
+  revision: 361f66ef3b53de1f16b7f2af9ef38a6c159ceb3e
+github.com/go-stack/stack:
+  branch: master
+  revision: 2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a
+github.com/golang/protobuf/proto:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/proto/proto3_proto:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/proto/test_proto:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/protoc-gen-go/descriptor:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/ptypes:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/ptypes/any:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/ptypes/duration:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/protobuf/ptypes/timestamp:
+  branch: master
+  revision: 7011d38ac0d201eeddff4a4085a657c3da322d75
+github.com/golang/snappy:
+  branch: master
+  revision: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+github.com/google/go-cmp/cmp:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/go-cmp/cmp/cmpopts:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/go-cmp/cmp/internal/diff:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/go-cmp/cmp/internal/function:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/go-cmp/cmp/internal/testprotos:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/go-cmp/cmp/internal/teststructs:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/go-cmp/cmp/internal/value:
+  branch: master
+  revision: 2248b49eaa8e1c8c0963ee77b40841adbc19d4ca
+github.com/google/gofuzz:
+  branch: master
+  revision: 24818f796faf91cd76ec7bddd72458fbced7a6c1
+github.com/google/uuid:
+  branch: master
+  revision: 9b3b1e0f5f99ae461456d768e7d301a7acdaa2d8
+github.com/gucumber/gucumber:
+  branch: master
+  revision: 7d5c79e832a25825dbed83e78f8484d4ffe8ec16
+github.com/gucumber/gucumber/gherkin:
+  branch: master
+  revision: 7d5c79e832a25825dbed83e78f8484d4ffe8ec16
+github.com/hashicorp/hcl:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/hcl/ast:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/hcl/parser:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/hcl/printer:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/hcl/scanner:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/hcl/strconv:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/hcl/token:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/json/parser:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/json/scanner:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/json/token:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/hashicorp/hcl/testhelper:
+  branch: master
+  revision: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+github.com/influxdata/influxdb/client/v2:
+  branch: master
+  revision: 6807ba6c25d8e75261cec69c65c84362194a012b
+github.com/jmespath/go-jmespath:
+  branch: master
+  revision: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+github.com/joaosoft/color:
+  branch: master
+  revision: 17caec6046388cea5751f441ef6b06a7a572abf2
+github.com/joaosoft/elastic:
+  branch: master
+  revision: f48823ce977220aed42368f7d1286041456130f2
+github.com/joaosoft/errors:
+  branch: master
+  revision: 3ebf6983bd704eae5217e69e4371dd3f13834572
+github.com/joaosoft/logger:
+  branch: master
+  revision: 5dbae6961bbbc65c8be766e065787c71c37dbe99
+github.com/joaosoft/manager:
+  branch: master
+  revision: e87747bfcc071131cb47f6270d5b52135bcfb4d2
+github.com/joaosoft/web:
+  branch: master
+  revision: 8230370c8f2c96d7007f6b2751bf86b9538abef0
+github.com/joaosoft/writers:
+  branch: master
+  revision: 97aea5d1a3ec5b6907403c1dfea21cbcf8369d89
+github.com/json-iterator/go:
+  branch: master
+  revision: 2433035e513208b0f7bd5b50d0aecd889b2c1ff8
+github.com/konsorten/go-windows-terminal-sequences:
+  branch: master
+  revision: 5c8c8bd35d3832f5d134ae1e1e375b69a4d25242
+github.com/kr/fs:
+  branch: main
+  revision: 1455def202f6e05b95cc7bfc7e8ae67ae5141eba
+github.com/kr/logfmt:
+  branch: master
+  revision: b84e30acd515aadc4b783ad4ff83aff3299bdfe0
+github.com/kr/pretty:
+  branch: main
+  revision: 73f6ac0b30a98e433b289500d779f50c1a6f0712
+github.com/kr/pty:
+  branch: master
+  revision: db8e3cd836b82e82e0a9c8edc6896967dd31374f
+github.com/kr/text:
+  branch: main
+  revision: e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f
+github.com/kr/text/colwriter:
+  branch: main
+  revision: e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f
+github.com/labstack/echo:
+  branch: master
+  revision: 90822319eb6169d1184277248322edaacd11cdde
+github.com/labstack/gommon/bytes:
+  branch: master
+  revision: 34167a09256a4fcb5d26dd88d02b7b353d86838a
+github.com/labstack/gommon/color:
+  branch: master
+  revision: 34167a09256a4fcb5d26dd88d02b7b353d86838a
+github.com/labstack/gommon/log:
+  branch: master
+  revision: 34167a09256a4fcb5d26dd88d02b7b353d86838a
+github.com/labstack/gommon/random:
+  branch: master
+  revision: 34167a09256a4fcb5d26dd88d02b7b353d86838a
+github.com/lib/pq:
+  branch: master
+  revision: 4ded0e9383f75c197b3a2aaa6d590ac52df6fd79
+github.com/lib/pq/oid:
+  branch: master
+  revision: 9eb73efc1fcc404148b56765b0d3f61d9a5ef8ee
+github.com/m3db/prometheus_client_golang/prometheus:
+  branch: master
+  revision: 82f5ff156b29e276022b1a958f7d385870fb9814
+github.com/m3db/prometheus_client_golang/prometheus/promhttp:
+  branch: master
+  revision: 82f5ff156b29e276022b1a958f7d385870fb9814
+github.com/m3db/prometheus_client_model/go:
+  branch: master
+  revision: d3fff8420252ef63bffb96f689d1a85096c97321
+github.com/magiconair/properties:
+  branch: master
+  revision: c2353362d570a7bfa228149c62842019201cfb71
+github.com/magiconair/properties/assert:
+  branch: master
+  revision: c2353362d570a7bfa228149c62842019201cfb71
+github.com/mailru/easyjson:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/bootstrap:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/buffer:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/gen:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/jlexer:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/jwriter:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/opt:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mailru/easyjson/parser:
+  branch: master
+  revision: 60711f1a8329503b04e1c88535f419d0bb440bff
+github.com/mattn/go-colorable:
+  branch: master
+  revision: efa589957cd060542a26d2dd7832fd6a6c6c3ade
+github.com/mattn/go-isatty:
+  branch: master
+  revision: 3fb116b820352b7f0c281308a4d6250c22d94e27
+github.com/matttproud/golang_protobuf_extensions/pbutil:
+  branch: master
+  revision: c182affec369e30f25d3eb8cd8a478dee585ae7d
+github.com/matttproud/golang_protobuf_extensions/testdata:
+  branch: master
+  revision: c182affec369e30f25d3eb8cd8a478dee585ae7d
+github.com/mitchellh/mapstructure:
+  branch: master
+  revision: fe40af7a9c397fa3ddba203c38a5042c5d0475ad
+github.com/modern-go/concurrent:
+  branch: master
+  revision: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+github.com/modern-go/reflect2:
+  branch: master
+  revision: 94122c33edd36123c84d5368cfb2b69df93a0ec8
+github.com/nsqio/go-nsq:
+  branch: master
+  revision: be2eb35667954359e06a56f76dd629c54895b8b9
+github.com/olivere/elastic:
+  branch: release-branch.v6
+  revision: f5738570b28a4b5fab39442e3a5b5ffc599a562c
+github.com/olivere/elastic/aws:
+  branch: release-branch.v6
+  revision: f5738570b28a4b5fab39442e3a5b5ffc599a562c
+github.com/olivere/elastic/aws/v4:
+  branch: release-branch.v6
+  revision: f5738570b28a4b5fab39442e3a5b5ffc599a562c
+github.com/olivere/elastic/config:
+  branch: release-branch.v6
+  revision: f5738570b28a4b5fab39442e3a5b5ffc599a562c
+github.com/olivere/elastic/trace/opentracing:
+  branch: release-branch.v6
+  revision: f5738570b28a4b5fab39442e3a5b5ffc599a562c
+github.com/olivere/elastic/uritemplates:
+  branch: release-branch.v6
+  revision: f5738570b28a4b5fab39442e3a5b5ffc599a562c
+github.com/olivere/env:
+  branch: master
+  revision: 567958a701e626c743ff3e581f9fdc6582d7b090
+github.com/opentracing/opentracing-go:
+  branch: master
+  revision: 8b5a441dc60e8d9bb9bf9d22060b6d94fa599983
+github.com/opentracing/opentracing-go/ext:
+  branch: master
+  revision: 8b5a441dc60e8d9bb9bf9d22060b6d94fa599983
+github.com/opentracing/opentracing-go/log:
+  branch: master
+  revision: 8b5a441dc60e8d9bb9bf9d22060b6d94fa599983
+github.com/opentracing/opentracing-go/mocktracer:
+  branch: master
+  revision: 8b5a441dc60e8d9bb9bf9d22060b6d94fa599983
+github.com/pelletier/go-toml:
+  branch: master
+  revision: 81a861c69d25a841d0c4394f0e6f84bc8c5afae0
+github.com/performancecopilot/speed:
+  branch: master
+  revision: d49dd9b77adc20c17eb89d8d4c1b0af8f8ae90e3
+github.com/performancecopilot/speed/bytewriter:
+  branch: master
+  revision: d49dd9b77adc20c17eb89d8d4c1b0af8f8ae90e3
+github.com/performancecopilot/speed/mmvdump:
+  branch: master
+  revision: d49dd9b77adc20c17eb89d8d4c1b0af8f8ae90e3
+github.com/pkg/errors:
+  branch: master
+  revision: c059e472caf75dbe73903f6521a20abac245b17f
+github.com/pkg/sftp:
+  branch: master
+  revision: 08de04f133f27844173471167014e1a753655ac8
+github.com/pmezard/go-difflib/difflib:
+  branch: master
+  revision: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+github.com/pquerna/ffjson/ffjson:
+  branch: master
+  revision: e517b90714f7c0eabe6d2e570a5886ae077d6db6
+github.com/pquerna/ffjson/fflib/v1:
+  branch: master
+  revision: e517b90714f7c0eabe6d2e570a5886ae077d6db6
+github.com/pquerna/ffjson/fflib/v1/internal:
+  branch: master
+  revision: e517b90714f7c0eabe6d2e570a5886ae077d6db6
+github.com/prometheus/client_golang/prometheus:
+  branch: master
+  revision: 18d13eacc9cce330610a70daf4ed0fef2e846589
+github.com/prometheus/client_golang/prometheus/internal:
+  branch: master
+  revision: 18d13eacc9cce330610a70daf4ed0fef2e846589
+github.com/prometheus/client_golang/prometheus/promhttp:
+  branch: master
+  revision: 18d13eacc9cce330610a70daf4ed0fef2e846589
+github.com/prometheus/client_golang/prometheus/push:
+  branch: master
+  revision: 18d13eacc9cce330610a70daf4ed0fef2e846589
+github.com/prometheus/client_model/go:
+  branch: master
+  revision: 56726106282f1985ea77d5305743db7231b0c0a8
+github.com/prometheus/common/expfmt:
+  branch: master
+  revision: 2998b132700a7d019ff618c06a234b47c1f3f681
+github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg:
+  branch: master
+  revision: 2998b132700a7d019ff618c06a234b47c1f3f681
+github.com/prometheus/common/model:
+  branch: master
+  revision: 2998b132700a7d019ff618c06a234b47c1f3f681
+github.com/prometheus/procfs:
+  branch: master
+  revision: b1a0a9a36d7453ba0f62578b99712f3a6c5f82d1
+github.com/prometheus/procfs/bcache:
+  branch: master
+  revision: b1a0a9a36d7453ba0f62578b99712f3a6c5f82d1
+github.com/prometheus/procfs/internal/util:
+  branch: master
+  revision: b1a0a9a36d7453ba0f62578b99712f3a6c5f82d1
+github.com/prometheus/procfs/nfs:
+  branch: master
+  revision: b1a0a9a36d7453ba0f62578b99712f3a6c5f82d1
+github.com/prometheus/procfs/xfs:
+  branch: master
+  revision: b1a0a9a36d7453ba0f62578b99712f3a6c5f82d1
+github.com/satori/go.uuid:
+  branch: master
+  revision: b2ce2384e17bbe0c6d34077efa39dbab3e09123b
+github.com/shiena/ansicolor:
+  branch: master
+  revision: a422bbe96644373c5753384a59d678f7d261ff10
+github.com/sirupsen/logrus:
+  branch: master
+  revision: e1e72e9de974bd926e5c56f83753fba2df402ce5
+github.com/sirupsen/logrus/hooks/syslog:
+  branch: master
+  revision: e1e72e9de974bd926e5c56f83753fba2df402ce5
+github.com/sirupsen/logrus/internal/testutils:
+  branch: master
+  revision: e1e72e9de974bd926e5c56f83753fba2df402ce5
+github.com/smartystreets/assertions:
+  branch: master
+  revision: b2de0cb4f26d0705483a2f495d89896d0b808573
+github.com/smartystreets/assertions/assert:
+  branch: master
+  revision: b2de0cb4f26d0705483a2f495d89896d0b808573
+github.com/smartystreets/assertions/internal/go-render/render:
+  branch: master
+  revision: b2de0cb4f26d0705483a2f495d89896d0b808573
+github.com/smartystreets/assertions/internal/oglematchers:
+  branch: master
+  revision: b2de0cb4f26d0705483a2f495d89896d0b808573
+github.com/smartystreets/assertions/internal/unit:
+  branch: master
+  revision: b2de0cb4f26d0705483a2f495d89896d0b808573
+github.com/smartystreets/assertions/should:
+  branch: master
+  revision: b2de0cb4f26d0705483a2f495d89896d0b808573
+github.com/smartystreets/go-aws-auth:
+  branch: master
+  revision: 0c1422d1fdb9fef5a1ad5b2e13ac663467eb767e
+github.com/smartystreets/gunit:
+  branch: master
+  revision: 6f0d6275bdcdd4411ad1c9b3b69eda55eea5b2db
+github.com/smartystreets/gunit/scan:
+  branch: master
+  revision: 6f0d6275bdcdd4411ad1c9b3b69eda55eea5b2db
+github.com/spf13/afero:
+  branch: master
+  revision: d40851caa0d747393da1ffb28f7f9d8b4eeffebd
+github.com/spf13/afero/mem:
+  branch: master
+  revision: d40851caa0d747393da1ffb28f7f9d8b4eeffebd
+github.com/spf13/cast:
+  branch: master
+  revision: 8965335b8c7107321228e3e3702cab9832751bac
+github.com/spf13/jwalterweatherman:
+  branch: master
+  revision: 4a4406e478ca629068e7768fc33f3f044173c0a6
+github.com/spf13/pflag:
+  branch: master
+  revision: 298182f68c66c05229eb03ac171abe6e309ee79a
+github.com/spf13/viper:
+  branch: master
+  revision: 8addaed22d65eb9b54dc9e9a28537f5b8b9ca756
+github.com/stretchr/testify/assert:
+  branch: master
+  revision: 865fb2c8f5af9ccbaaadfd20d18236358dccaaff
+github.com/stretchr/testify/require:
+  branch: master
+  revision: 865fb2c8f5af9ccbaaadfd20d18236358dccaaff
+github.com/stretchr/testify/suite:
+  branch: master
+  revision: 865fb2c8f5af9ccbaaadfd20d18236358dccaaff
+github.com/uber-go/tally:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber-go/tally/m3:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber-go/tally/m3/customtransports:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber-go/tally/m3/thrift:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber-go/tally/m3/thriftudp:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber-go/tally/prometheus:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber-go/tally/statsd:
+  branch: master
+  revision: d0a004a77fc9f0b9733e3afe638994d18da13f3d
+github.com/uber/jaeger-lib/metrics:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/uber/jaeger-lib/metrics/adapters:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/uber/jaeger-lib/metrics/expvar:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/uber/jaeger-lib/metrics/go-kit:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/uber/jaeger-lib/metrics/go-kit/expvar:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/uber/jaeger-lib/metrics/metricstest:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/uber/jaeger-lib/metrics/prometheus:
+  branch: master
+  revision: 0e30338a695636fe5bcf7301e8030ce8dd2a8530
+github.com/ugorji/go/codec:
+  branch: master
+  revision: 99ea80c8b19ad777f970258ca09c5c2d5826f0fd
+github.com/valyala/bytebufferpool:
+  branch: master
+  revision: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+github.com/valyala/fasttemplate:
+  branch: master
+  revision: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+github.com/xordataexchange/crypt/backend:
+  branch: master
+  revision: b2862e3d0a775f18c7cfe02273500ae307b61218
+github.com/xordataexchange/crypt/backend/consul:
+  branch: master
+  revision: b2862e3d0a775f18c7cfe02273500ae307b61218
+github.com/xordataexchange/crypt/backend/etcd:
+  branch: master
+  revision: b2862e3d0a775f18c7cfe02273500ae307b61218
+github.com/xordataexchange/crypt/backend/mock:
+  branch: master
+  revision: b2862e3d0a775f18c7cfe02273500ae307b61218
+github.com/xordataexchange/crypt/config:
+  branch: master
+  revision: b2862e3d0a775f18c7cfe02273500ae307b61218
+github.com/xordataexchange/crypt/encoding/secconf:
+  branch: master
+  revision: b2862e3d0a775f18c7cfe02273500ae307b61218
+gitlab.com/vredens/go-logger:
+  branch: master
+  revision: 45939c993f086cd3bac74c6aa3d5bad16cde3765
+golang.org/x/build/autocertcache:
+  branch: master
+  revision: e74df67500966d4bc487dfc6778de5a88ef14ffd
+golang.org/x/crypto/acme:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/acme/autocert:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/acme/autocert/internal/acmetest:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/cast5:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/curve25519:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ed25519:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ed25519/internal/edwards25519:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/internal/chacha20:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/internal/subtle:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/openpgp:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/openpgp/armor:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/openpgp/elgamal:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/openpgp/errors:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/openpgp/packet:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/openpgp/s2k:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/poly1305:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ripemd160:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ssh:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ssh/agent:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ssh/terminal:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/crypto/ssh/testdata:
+  branch: master
+  revision: 8d7daa0c54b357f3071e11eaef7efc4e19a417e2
+golang.org/x/net/context:
+  branch: master
+  revision: f5e5bdd778241bfefa8627f7124c39cd6ad8d74f
+golang.org/x/net/context/ctxhttp:
+  branch: master
+  revision: f5e5bdd778241bfefa8627f7124c39cd6ad8d74f
+golang.org/x/net/http/httpguts:
+  branch: master
+  revision: f5e5bdd778241bfefa8627f7124c39cd6ad8d74f
+golang.org/x/net/http2:
+  branch: master
+  revision: f5e5bdd778241bfefa8627f7124c39cd6ad8d74f
+golang.org/x/net/http2/hpack:
+  branch: master
+  revision: f5e5bdd778241bfefa8627f7124c39cd6ad8d74f
+golang.org/x/net/idna:
+  branch: master
+  revision: f5e5bdd778241bfefa8627f7124c39cd6ad8d74f
+golang.org/x/oauth2:
+  branch: master
+  revision: 5dab4167f31cbd76b407f1486c86b40748bc5073
+golang.org/x/oauth2/clientcredentials:
+  branch: master
+  revision: 5dab4167f31cbd76b407f1486c86b40748bc5073
+golang.org/x/oauth2/google:
+  branch: master
+  revision: 5dab4167f31cbd76b407f1486c86b40748bc5073
+golang.org/x/oauth2/internal:
+  branch: master
+  revision: 5dab4167f31cbd76b407f1486c86b40748bc5073
+golang.org/x/oauth2/jws:
+  branch: master
+  revision: 5dab4167f31cbd76b407f1486c86b40748bc5073
+golang.org/x/oauth2/jwt:
+  branch: master
+  revision: 5dab4167f31cbd76b407f1486c86b40748bc5073
+golang.org/x/sync/errgroup:
+  branch: master
+  revision: 1d60e4601c6fd243af51cc01ddf169918a5407ca
+golang.org/x/sys/unix:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/sys/windows:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/sys/windows/registry:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/sys/windows/svc:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/sys/windows/svc/debug:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/sys/windows/svc/eventlog:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/sys/windows/svc/mgr:
+  branch: master
+  revision: 82a175fd1598e8a172e58ebdf5ed262bb29129e5
+golang.org/x/text/cases:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/collate:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/collate/build:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/feature/plural:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/catmsg:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/cldrtree:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/colltab:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/export/idna:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/format:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/gen:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/language:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/language/compact:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/number:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/stringset:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/tag:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/testtext:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/triegen:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/internal/ucd:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/language:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/language/display:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/message:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/message/catalog:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/runes:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/secure/bidirule:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/transform:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/unicode/bidi:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/unicode/cldr:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/unicode/norm:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/unicode/rangetable:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/text/width:
+  branch: master
+  revision: 905a57155faa8230500121607930ebb9dd8e139c
+golang.org/x/tools/go/ast/astutil:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/buildutil:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/callgraph:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/callgraph/cha:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/callgraph/rta:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/callgraph/static:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/gcexportdata:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/internal/cgo:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/internal/gcimporter:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/loader:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/packages:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/ssa:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/ssa/interp:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/ssa/ssautil:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+golang.org/x/tools/go/types/typeutil:
+  branch: master
+  revision: 2f84ea8ef8720b418a1414ed610df828e1db1b3b
+gopkg.in/check.v1:
+  branch: v1
+  revision: 788fd78401277ebd861206a03c884797c6ec5541
+gopkg.in/validator.v2:
+  branch: v2
+  revision: 135c24b11c19e52befcae2ec3fca5d9b78c4e98e
+gopkg.in/yaml.v2:
+  branch: master
+  revision: 51d6538a90f86fe93ac480b35f37b2be17fef232
