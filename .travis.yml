@@ -12,12 +12,6 @@ jobs:
       os: linux
       go: master
       script:
-        - go test ./elastic/joaosoft/
-        - go test ./elastic/olivere/
-        - go test -coverprofile=coverage.txt -covermode=atomic ./elastic/joaosoft/
-        - go test -coverprofile=coverage.txt -covermode=atomic ./elastic/olivere/
-        - go test ./elastic/joaosoft/ -bench=. -cpu=1,2,4,8
-        - go test ./elastic/olivere/ -bench=. -cpu=1,2,4,8
         - go test ./logger/joaosoft/
         - go test ./logger/vredens/
         - go test -coverprofile=coverage.txt -covermode=atomic ./logger/joaosoft/
