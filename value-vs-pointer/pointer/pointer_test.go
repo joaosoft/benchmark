@@ -14,6 +14,7 @@ type Data struct {
 }
 
 func BenchmarkPointer(b *testing.B) {
+	b.ReportAllocs()
 	data := Data{
 		A: "AAAAAAAAAAAAAAAAAAA",
 		B: "BBBBBBBBBBBBBBBBBBB",
@@ -24,10 +25,18 @@ func BenchmarkPointer(b *testing.B) {
 	data.F = &data
 
 	for i := 0; i < b.N; i++ {
-		dummyFunc(&data)
+		dummyFunc(&data, 10)
 	}
 }
 
-func dummyFunc(data *Data) error {
-	return nil
+func dummyFunc(data *Data, step int) error {
+	if data.A == data.B {
+		panic("fail")
+	}
+
+	if step > 0 {
+		return dummyFunc(data, step-1)
+	} else {
+		return nil
+	}
 }
