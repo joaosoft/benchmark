@@ -1,6 +1,6 @@
 goos: darwin
 goarch: amd64
 pkg: benchmark/value-vs-pointer/pointer
-BenchmarkPointer-4   	30000000	        51.5 ns/op	       0 B/op	       0 allocs/op
+BenchmarkValue-4   	1000000000	         3.36 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	benchmark/value-vs-pointer/pointer	1.604s
+ok  	benchmark/value-vs-pointer/pointer	3.650s
