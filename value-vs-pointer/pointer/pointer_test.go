@@ -13,7 +13,7 @@ type Data struct {
 	F interface{}
 }
 
-func BenchmarkValue(b *testing.B) {
+func BenchmarkPointer(b *testing.B) {
 	b.ReportAllocs()
 	data := Data{
 		A: "AAAAAAAAAAAAAAAAAAA",
