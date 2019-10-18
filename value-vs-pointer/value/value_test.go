@@ -11,12 +11,6 @@ type Data struct {
 	D string
 	E string
 	F interface{}
-	G interface{}
-	H interface{}
-	I interface{}
-	J interface{}
-	K interface{}
-	L interface{}
 }
 
 func BenchmarkValue(b *testing.B) {
@@ -29,12 +23,6 @@ func BenchmarkValue(b *testing.B) {
 		E: "EEEEEEEEEEEEEEEEEEE",
 	}
 	data.F = data
-	data.G = data
-	data.H = data
-	data.I = data
-	data.J = data
-	data.K = data
-	data.L = data
 
 	for i := 0; i < 5; i++ {
 		dummyFunc(data, 10)
