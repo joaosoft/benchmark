@@ -24,19 +24,14 @@ func BenchmarkValue(b *testing.B) {
 	}
 	data.F = data
 
-	for i := 0; i < 5; i++ {
-		dummyFunc(data, 10)
+	for i := 0; i < b.N; i++ {
+		dummyFunc(data)
 	}
 }
 
-func dummyFunc(data Data, step int) error {
+func dummyFunc(data Data) error {
 	if data.A == data.B {
 		panic("fail")
 	}
-
-	if step > 0 {
-		return dummyFunc(data, step-1)
-	} else {
-		return nil
-	}
+	return nil
 }
