@@ -7,7 +7,6 @@ A benchmark to compare my personal project with others.
 At the moment i have the following benchmarks
 > Logger
 * https://github.com/joaosoft/logger by joaosoft
-* https://gitlab.com/vredens/go-logger by vredens
 
 ```   
 /* with joaosoft */
@@ -17,15 +16,6 @@ pkg: benchmark/logger/joaosoft
 BenchmarkJoaosoftLoggerWithFormatedMessage-4       30000	     45377 ns/op
 PASS
 ok  	benchmark/logger/joaosoft	3.635s
-
-
-/* with vredens */
-goos: darwin
-goarch: amd64
-pkg: benchmark/logger/vredens
-BenchmarkVredensLoggerWithFormatedMessage-4 
-
-< IT BREAKS AFTER SOME CALLS >
 ```
 
 > Elastic
