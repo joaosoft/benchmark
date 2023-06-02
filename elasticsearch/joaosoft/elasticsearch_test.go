@@ -1,22 +1,22 @@
 package elastic_joaosoft
 
 import (
+	"github.com/joaosoft/elastic"
 	"testing"
 
 	"fmt"
 	"strconv"
 	"time"
 
-	"net/http"
 	"os"
 
 	"sync"
 
-	"github.com/joaosoft/elastic"
+	"github.com/joaosoft/elasticsearch"
 	log "github.com/joaosoft/logger"
 )
 
-var client = elastic.NewElastic()
+var client, _ = elasticsearch.NewElastic()
 
 type Person struct {
 	Name string `json:"name"`
@@ -75,7 +75,7 @@ func BenchmarkJoaosoftElastic(b *testing.B) {
 }
 
 func createIndexWithMapping() {
-	err := client.CreateIndex().Index("persons").Body([]byte(`
+	_, err := client.Index().Index("persons").Body([]byte(`
 {
   "mappings": {
     "person": {
@@ -96,7 +96,7 @@ func createIndexWithMapping() {
     }
   }
 }
-`)).Execute()
+`)).Create()
 
 	if err != nil {
 		log.Error(err)
@@ -108,10 +108,10 @@ func createIndexWithMapping() {
 func createDocumentWithId(id string) {
 	// document create with id
 	age, _ := strconv.Atoi(id)
-	id, err := client.Create().Index("persons").Type("person").Id(id).Body(Person{
+	_, err := client.Document().Index("persons").Type("person").Id(id).Body(Person{
 		Name: "joao",
 		Age:  age + 20,
-	}).Execute()
+	}).Create()
 
 	if err != nil {
 		log.Error(err)
@@ -122,32 +122,32 @@ func createDocumentWithId(id string) {
 
 func createDocumentWithoutId() string {
 	// document create without id
-	id, err := client.Create().Index("persons").Type("person").Body(Person{
+	response, err := client.Document().Index("persons").Type("person").Body(Person{
 		Name: "joao",
 		Age:  30,
-	}).Execute()
+	}).Create()
 
 	if err != nil {
 		log.Error(err)
 	} else {
-		fmt.Printf("\ncreated a new person with id %s\n", id)
+		fmt.Printf("\ncreated a new person with id %s\n", response.ID)
 	}
 
-	return id
+	return response.ID
 }
 
 func updateDocumentWithId(id string) {
 	// document update with id
 	age, _ := strconv.Atoi(id)
-	id, err := client.Create().Index("persons").Type("person").Id(id).Body(Person{
+	response, err := client.Document().Index("persons").Type("person").Id(id).Body(Person{
 		Name: "luis",
 		Age:  age,
-	}).Execute()
+	}).Update()
 
 	if err != nil {
 		log.Error(err)
 	} else {
-		fmt.Printf("\nupdated person with id %s\n", id)
+		fmt.Printf("\nupdated person with id %s\n", response.ID)
 	}
 }
 
@@ -158,42 +158,42 @@ func searchDocument(name string) {
 
 	// document search
 	dir, _ := os.Getwd()
-	err := client.Search().
+	response, err := client.Search().
 		Index("persons").
 		Type("person").
 		Object(&data).
 		Template(dir+"/examples/templates", "get.example.search.template", &d1, false).
-		Execute()
+		Search()
 
 	if err != nil {
 		log.Error(err)
 	} else {
-		fmt.Printf("\nsearch person by name:%s %+v\n", name, data)
+		fmt.Printf("\nsearch person by name:%s %+v\n", name, response.Hits.Hits)
 	}
 }
 
 func deleteDocumentWithId(id string) {
-	err := client.Delete().Index("persons").Type("person").Id(id).Execute()
+	response, err := client.Document().Index("persons").Type("person").Id(id).Delete()
 
 	if err != nil {
 		log.Error(err)
 	} else {
-		fmt.Printf("\ndeleted person with id %s\n", "1")
+		fmt.Printf("\ndeleted person with id %s\n", response.ID)
 	}
 }
 
 func existsIndex(index string) {
-	status, err := client.ExistsIndex().Index(index).Execute()
+	status, err := client.Index().Index(index).Exists()
 
 	if err != nil {
 		log.Error(err)
 	} else {
-		fmt.Printf("\nexists index? %t\n", status == http.StatusOK)
+		fmt.Printf("\nexists index? %t\n", status)
 	}
 }
 
 func deleteIndex() {
-	err := client.DeleteIndex().Index("persons").Execute()
+	_, err := client.Index().Index("persons").Delete()
 
 	if err != nil {
 		log.Error(err)

@@ -1,0 +1,50 @@
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+goos: darwin
+goarch: amd64
+pkg: github.com/joaosoft/benchmark/json/encoding
+cpu: Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz
+BenchmarkJsonMarshal-8     	{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+1000000000	         0.0001028 ns/op
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+
+:: Example: {Name:joao Age:30 Address:0xc000014340 Numbers:[1 2 3] Others:map["ola" "joao":0xc0000143c0 c:0xc000014400] Addresses:[0xc000014440 0xc000014480]}
+:: Address: &{Ports:[] Street:street one Number:1.2 Map:map["ola" "joao":"adeus" "joao" c:d]}
+
+
+BenchmarkJsonUnmarshal-8   	{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+
+:: Example: {Name:joao Age:30 Address:0xc00011ea40 Numbers:[1 2 3] Others:map["ola" "joao":0xc00011ea80 c:0xc00011eac0] Addresses:[0xc00011eb00 0xc00011eb40]}
+:: Address: &{Ports:[] Street:street one Number:1.2 Map:map["ola" "joao":"adeus" "joao" c:d]}
+
+
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+
+:: Example: {Name:joao Age:30 Address:0xc000014340 Numbers:[1 2 3] Others:map["ola" "joao":0xc0000143c0 c:0xc000014400] Addresses:[0xc000014440 0xc000014480]}
+:: Address: &{Ports:[] Street:street one Number:1.2 Map:map["ola" "joao":"adeus" "joao" c:d]}
+
+
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+
+:: Example: {Name:joao Age:30 Address:0xc00011ea40 Numbers:[1 2 3] Others:map["ola" "joao":0xc00011ea80 c:0xc00011eac0] Addresses:[0xc00011eb00 0xc00011eb40]}
+:: Address: &{Ports:[] Street:street one Number:1.2 Map:map["ola" "joao":"adeus" "joao" c:d]}
+
+
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+
+:: Example: {Name:joao Age:30 Address:0xc000014340 Numbers:[1 2 3] Others:map["ola" "joao":0xc0000143c0 c:0xc000014400] Addresses:[0xc000014440 0xc000014480]}
+:: Address: &{Ports:[] Street:street one Number:1.2 Map:map["ola" "joao":"adeus" "joao" c:d]}
+
+
+{"name":"joao","age":30,"address":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"numbers":[1,2,3],"others":{"\"ola\" \"joao\"":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},"c":{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}},"addresses":[{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}},{"ports":null,"street":"street one","number":1.2,"map":{"\"ola\" \"joao\"":"\"adeus\" \"joao\"","c":"d"}}]}
+
+:: Example: {Name:joao Age:30 Address:0xc00011ea40 Numbers:[1 2 3] Others:map["ola" "joao":0xc00011ea80 c:0xc00011eac0] Addresses:[0xc00011eb00 0xc00011eb40]}
+:: Address: &{Ports:[] Street:street one Number:1.2 Map:map["ola" "joao":"adeus" "joao" c:d]}
+
+
+1000000000	         0.0001880 ns/op
+PASS
+ok  	github.com/joaosoft/benchmark/json/encoding	1.033s

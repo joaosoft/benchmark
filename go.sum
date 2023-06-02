@@ -136,11 +136,15 @@ github.com/joaosoft/auth-types/jwt v0.0.0-20230531143726-6905d84fa794 h1:HMoYOz1
 github.com/joaosoft/auth-types/jwt v0.0.0-20230531143726-6905d84fa794/go.mod h1:MUESY8AsPPgrG7wusDrQXEhgfQzTk4pIZroUZKjxXKY=
 github.com/joaosoft/color v0.0.0-20230531140514-b61c18d53e39 h1:0v5pi77nPHjxLOEr0gL0BW5Wuu8YwIMz6wcXjFJ081Y=
 github.com/joaosoft/color v0.0.0-20230531140514-b61c18d53e39/go.mod h1:AgsP+zahQgG5NsJ9XN+lJhxq9kqXDyiOHO8zIqNxUEY=
-github.com/joaosoft/elastic v0.0.0-20230531144305-c599e1743cfc h1:iKQgxZzdJ0b1K7eiCgcQalMfuTJa1eGl257WSjmAfeg=
-github.com/joaosoft/elastic v0.0.0-20230531144305-c599e1743cfc/go.mod h1:fiZT6SFVkLslnRjkBMDF69QdEIjiGJCHqMb1hlSRZcg=
+github.com/joaosoft/elastic v0.0.0-20230602082714-adb88f95a552 h1:y6RcuXz+ef0DssFsfJAh3XuVj3vqz7tD/dMd67cei04=
+github.com/joaosoft/elastic v0.0.0-20230602082714-adb88f95a552/go.mod h1:fiZT6SFVkLslnRjkBMDF69QdEIjiGJCHqMb1hlSRZcg=
+github.com/joaosoft/elasticsearch v0.0.0-20230602084208-2feb24ada788 h1:E9ul6vF8HmVvX0I2bSPfdfuhkRBaOhf/rnm1KNcGF7I=
+github.com/joaosoft/elasticsearch v0.0.0-20230602084208-2feb24ada788/go.mod h1:NiShIJ9xt7d3rdPJ8EzXIuUo+sBZPZ8dhn1Pczt0M2M=
 github.com/joaosoft/errors v0.0.0-20210812101433-f58fbcc4c1c8/go.mod h1:88WoG5oDStLTaG0n5e8NR0rKcugZttofMwD5cajQnTA=
 github.com/joaosoft/errors v0.0.0-20230531141818-ebb38600b462 h1:FH9gGVdSVA9ERuIlyYI4+U36FZtSMulMzID37MdLfGc=
 github.com/joaosoft/errors v0.0.0-20230531141818-ebb38600b462/go.mod h1:/dazfOGZSVYLVcrKzAJATbOhYm+/9BNoS5ZDzKz+ltI=
+github.com/joaosoft/json v0.0.0-20230531142934-29fc4385bd51 h1:YuByeUs05GgCPYqhbmd2IDHVwQLrYIGWp7dvlHv+4Zw=
+github.com/joaosoft/json v0.0.0-20230531142934-29fc4385bd51/go.mod h1:dohSfpKHvnlYaKE0mhisbvPPqvhxNw5Zaux+MxaEuV8=
 github.com/joaosoft/logger v0.0.0-20230531142923-753c0a3e836a h1:O53XPtsnwnmBsGptCKSlupo0aNT5wG02AMqttSCE0vk=
 github.com/joaosoft/logger v0.0.0-20230531142923-753c0a3e836a/go.mod h1:xhFyqfT2p8E7qK6UXhv2U0tFuMOTeOR7Un1v5hoX7Gs=
 github.com/joaosoft/manager v0.0.0-20230531144045-7e3c8790d395 h1:6qOLZSHusKD+tMSJbStO+iXGCAhJ3WYYrfqAsiM/nKw=

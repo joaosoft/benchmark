@@ -3,7 +3,9 @@ module github.com/joaosoft/benchmark
 go 1.20
 
 require (
-	github.com/joaosoft/elastic v0.0.0-20230531144305-c599e1743cfc
+	github.com/joaosoft/elastic v0.0.0-20230602082714-adb88f95a552
+	github.com/joaosoft/elasticsearch v0.0.0-20230602084208-2feb24ada788
+	github.com/joaosoft/json v0.0.0-20230531142934-29fc4385bd51
 	github.com/joaosoft/logger v0.0.0-20230531142923-753c0a3e836a
 	github.com/olivere/elastic v6.2.37+incompatible
 )
